@@ -41,3 +41,8 @@ Difficulty Retarget: Every Block
 Privacy: Zerocoin
 
 DAO: Masternode vote
+
+## PHASE 2 BEGINS
+
+Community voted vor AncientKnowledge proposal, please see :
+https://darkpaycoin.io/community/proposals/p2-ancientknowledge
