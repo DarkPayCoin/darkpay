@@ -1,0 +1,26 @@
+# /etc/conf.d/darkpaycoind: config file for /etc/init.d/darkpaycoind
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/darkpaycoin/darkpaycoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/darkpaycoind"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/darkpaycoind.pid"
+
+# Where to write darkpaycoind data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/darkpaycoind"
+
+# User and group to own darkpaycoind process
+#BITCOIND_USER="darkpaycoin"
+#BITCOIND_GROUP="darkpaycoin"
+
+# Path to darkpaycoind executable
+#BITCOIND_BIN="/usr/bin/darkpaycoind"
+
+# Nice value to run darkpaycoind under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

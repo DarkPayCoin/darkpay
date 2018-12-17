@@ -1,0 +1,36 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/darkpaycoin_bg.qm</file>
+        <file alias="ca">locale/darkpaycoin_ca.qm</file>
+        <file alias="cs">locale/darkpaycoin_cs.qm</file>
+        <file alias="da">locale/darkpaycoin_da.qm</file>
+        <file alias="de">locale/darkpaycoin_de.qm</file>
+        <file alias="en">locale/darkpaycoin_en.qm</file>
+        <file alias="en_US">locale/darkpaycoin_en_US.qm</file>
+        <file alias="eo">locale/darkpaycoin_eo.qm</file>
+        <file alias="es">locale/darkpaycoin_es.qm</file>
+        <file alias="es_ES">locale/darkpaycoin_es_ES.qm</file>
+        <file alias="fi">locale/darkpaycoin_fi.qm</file>
+        <file alias="fr_FR">locale/darkpaycoin_fr_FR.qm</file>
+        <file alias="hi_IN">locale/darkpaycoin_hi_IN.qm</file>
+        <file alias="hr">locale/darkpaycoin_hr.qm</file>
+        <file alias="hr_HR">locale/darkpaycoin_hr_HR.qm</file>
+        <file alias="it">locale/darkpaycoin_it.qm</file>
+        <file alias="ja">locale/darkpaycoin_ja.qm</file>
+        <file alias="ko_KR">locale/darkpaycoin_ko_KR.qm</file>
+        <file alias="lt_LT">locale/darkpaycoin_lt_LT.qm</file>
+        <file alias="nl">locale/darkpaycoin_nl.qm</file>
+        <file alias="pl">locale/darkpaycoin_pl.qm</file>
+        <file alias="pt">locale/darkpaycoin_pt.qm</file>
+        <file alias="pt_BR">locale/darkpaycoin_pt_BR.qm</file>
+        <file alias="ro_RO">locale/darkpaycoin_ro_RO.qm</file>
+        <file alias="ru">locale/darkpaycoin_ru.qm</file>
+        <file alias="sk">locale/darkpaycoin_sk.qm</file>
+        <file alias="sv">locale/darkpaycoin_sv.qm</file>
+        <file alias="tr">locale/darkpaycoin_tr.qm</file>
+        <file alias="uk">locale/darkpaycoin_uk.qm</file>
+        <file alias="vi">locale/darkpaycoin_vi.qm</file>
+        <file alias="zh_CN">locale/darkpaycoin_zh_CN.qm</file>
+        <file alias="zh_TW">locale/darkpaycoin_zh_TW.qm</file>
+    </qresource>
+</RCC>
