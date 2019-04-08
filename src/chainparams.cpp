@@ -69,18 +69,24 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
    (26136, uint256("0xa79cf58ca088547e71136639768f1df88026ca6d8588a4ed6a7af27f30ff57cc"))
    (26816, uint256("0xa1a089d259b295f2e526e0998d114bf3c8cab150006ba41ea94b30bc44bbe4c8"))
    (58508, uint256("0x4ce3f6793e404332a3f370961892762a98ea3dd60620296ac855172f7e76640b")) 
-   (138400, uint256("0xa8ee45b2c404afc36726581d812ec4e9127ba65bc4d8d413f555b9c64b4f322c"));
+   (138400, uint256("0xa8ee45b2c404afc36726581d812ec4e9127ba65bc4d8d413f555b9c64b4f322c"))
+   (306000, uint256("0x5606181c43d1622bed0f8d69488e8e6576c476f411a0b8d0a1bf9760f40c83a8"))
+   (306001, uint256("0x6c8b2a990e700d9472096ed39792021c347e4d7553e9e8ee1ab22480d8d2aa09"))
+   (306044, uint256("0x341337c5ff507e0336dce2b98d45ece2c56a366e51c78ea99fa9e486ff9821a2"))
+   (306400, uint256("0xbbd236c0c6ef6487f3fbb444fd44e2dc7c5d116718bd462e0e81eaecbb39ebd4"));
+
+
+
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
- 	
-	1544517732,
-    354483,
+    
+    1554716978,
+    752899,
  //   (the tx=... number in the SetBestChain debug.log lines)
 
 
-	2666 
+    2666 
 };
-
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
 static const Checkpoints::CCheckpointData dataTestnet = {
