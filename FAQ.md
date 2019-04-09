@@ -5,7 +5,8 @@ Support FAQ - thanks to Skelt0r
 Welcome to the support FAQ. You'll find the answers to the most frequently asked questions. You might have been forwarded here in case you asked a question in #live-support. All questions and answers are numbered for easy forwarding. Please let me know by DM if something is missing. Please help others in #live-support by forwarding them here (when appropriate).
 
 # Q0: I haven't received my masternode reward. When can I expect it?
-## A0: You should check the current reward interval on the explorer website (http://explorer2.darkpaycoin.io/). The first reward takes around 3x the normal reward interval. 
+## A0: You should check the current reward interval
+on the explorer website (http://explorer2.darkpaycoin.io/). The first reward takes around 3x the normal reward interval. 
 
 
 # Q1: My wallet is stuck at block number xxx.xxx, what should I do?
