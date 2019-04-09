@@ -130,7 +130,7 @@ Wait a while and you have an Ubuntu Desktop in a virtual machine. Don't forget t
 
 # Q8: how do I install multiple masternodes on the same VPS using IPv6?
 ## A8: check out this guide made by @h6y34ui98 :
-
+https://cdn.discordapp.com/attachments/528965380186701835/562754390998646809/dkpc-multi-mn-install-ipv6-guide.pdf
 
 
 # Q9: ADDNODES?
