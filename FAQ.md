@@ -4,12 +4,12 @@ Support FAQ - thanks to Skelt0r
 # Introduction
 Welcome to the support FAQ. You'll find the answers to the most frequently asked questions. You might have been forwarded here in case you asked a question in #live-support. All questions and answers are numbered for easy forwarding. Please let me know by DM if something is missing. Please help others in #live-support by forwarding them here (when appropriate).
 
-#Q0: I haven't received my masternode reward. When can I expect it?
-A0: You should check the current reward interval on the explorer website (http://explorer2.darkpaycoin.io/). The first reward takes around 3x the normal reward interval. 
+# Q0: I haven't received my masternode reward. When can I expect it?
+## A0: You should check the current reward interval on the explorer website (http://explorer2.darkpaycoin.io/). The first reward takes around 3x the normal reward interval. 
 
 
-#Q1: My wallet is stuck at block number xxx.xxx, what should I do?
-A1: You should resync your wallet as follows:
+# Q1: My wallet is stuck at block number xxx.xxx, what should I do?
+## A1: You should resync your wallet as follows:
 1. Stop your wallet,
 2. Go to your wallet folder,
 In Win:  %APPDATA%\DarkPayCoin
@@ -21,8 +21,8 @@ In Linux: ~/.DarkPayCoin
 6. Start wallet and let it sync.
 
 
-#Q2: I'm not sure whether I am on the right chain, how can I check?
-A2: You should check a blockhash of your wallet/masternode with the explorer as follows:
+# Q2: I'm not sure whether I am on the right chain, how can I check?
+## A2: You should check a blockhash of your wallet/masternode with the explorer as follows:
 
 Control wallet:
 1. Open debug console (Tools-> Debug console),
@@ -41,8 +41,8 @@ Masternode
 If there is no result or it shows you a different block number, you are on the wrong chain. A fix is described in Q3. If you entered the block number in explorer, the result should be the same as the result of #3.
 
 
-#Q3: My masternode is on the wrong chain, how can I fix this?
-A3: You should resync your masternode chain as follows:
+# Q3: My masternode is on the wrong chain, how can I fix this?
+## A3: You should resync your masternode chain as follows:
 
 1. Log in via ssh
 2. cd /root/.darkpaycoin
@@ -67,8 +67,8 @@ The last 2 lines of the result should be:
 If it's not, check Q4.
 
 
-#Q5: I'd like to reinstall my Windows wallet, what should I do?
-A5: You should remove the wallet files and registry entry as follows:
+# Q5: I'd like to reinstall my Windows wallet, what should I do?
+## A5: You should remove the wallet files and registry entry as follows:
 
 1. First make a backup of your wallet.dat, darkpaycoin.conf and masternode.conf files located in %APPDATA%\DarkPayCoin (additionally you can also make copy of backups folder, so you also have access to older backups of your wallet.dat)
 2. Push Windows key+r
@@ -79,8 +79,8 @@ A5: You should remove the wallet files and registry entry as follows:
 7. Start wallet and let it sync. (for quickest sync, see fix in Q1)
 
 
-#Q6: How can I install a MN on Tor?
-A6: Use the multi install script as follows:
+# Q6: How can I install a MN on Tor?
+## A6: Use the multi install script as follows:
 
 1. Log in your vps
 2. If you're not logged in as root: sudo su
@@ -111,8 +111,8 @@ OSX
 You wallet will sync slower than normal, because all wallet traffic is routed through Tor. Wait for ~20 confirmations of the collateral transaction before activating the masternode + check the MN status in your vps: darkpaycoin-cli --datadir=/root/.darkpaycoin1 masternode status (remove the 1 if this is the first masternode on this vps, replace by a 2 if this is the third etc)
 
 
-#Q7: How can I run a DarkPay wallet on OSX without using the OSX wallet?
-A7: You could run a Virtual Machine (VM) with an Ubuntu Desktop and run the Ubuntu wallet on it as follows:
+# Q7: How can I run a DarkPay wallet on OSX without using the OSX wallet?
+## A7: You could run a Virtual Machine (VM) with an Ubuntu Desktop and run the Ubuntu wallet on it as follows:
 
 1. Download VirtualBox, go to https://www.virtualbox.org/wiki/Downloads
 2. Click OSX hosts and install the .dmg 
@@ -128,12 +128,12 @@ Wait a while and you have an Ubuntu Desktop in a virtual machine. Don't forget t
 10. Download the wallet as normal
 
 
-#Q8: how do I install multiple masternodes on the same VPS using IPv6?
-A8: check out this guide made by @h6y34ui98 :
+# Q8: how do I install multiple masternodes on the same VPS using IPv6?
+## A8: check out this guide made by @h6y34ui98 :
 
 
 
-#Q9: ADDNODES?
+# Q9: ADDNODES?
 
 46.101.231.40
 142.93.97.228
