@@ -55,7 +55,7 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 // + Contains no strange transactions
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256("0x00000d5bd64fbdfb201c8ebbf2c714a5321c3db9765ff69c482db9e4a609aa18"))
+   (0, uint256("0x00000d5bd64fbdfb201c8ebbf2c714a5321c3db9765ff69c482db9e4a609aa18"))
    (1, uint256("0x000009c85fe5c841abdb8eeab9d802b392649282febe7f0d3cbd219ef08361c0"))// genesis is skynet
    (71, uint256("0x000000dc61293f85f14ca9cff59c5d5c0a805c95f1118f1d8891b7498c964343"))// enforce
    (301, uint256("0xdb9141059616919c7b37c228cbca78f696432c73493c0ddfad269297cfd27817"))
@@ -70,22 +70,36 @@ static Checkpoints::MapCheckpoints mapCheckpoints =
    (26816, uint256("0xa1a089d259b295f2e526e0998d114bf3c8cab150006ba41ea94b30bc44bbe4c8"))
    (58508, uint256("0x4ce3f6793e404332a3f370961892762a98ea3dd60620296ac855172f7e76640b")) 
    (138400, uint256("0xa8ee45b2c404afc36726581d812ec4e9127ba65bc4d8d413f555b9c64b4f322c"))
+   (150000, uint256("0xf8914a2c8de7c540a1fe16fecd5f86b7d941d8acd5539f86aa49ad71b7d1baaf")) //may phase2 be with us
+   (150006, uint256("0x5e013ace753d4bd3c819f17d88289d3a8f1d966679dc13a29df8f5d5179d4622"))
+   (150214, uint256("0x0d700f857e24e7bf2f6d48a2daee615c2b040f5699c0bf33ce73d5c4a97bd8a0"))
+   (160308, uint256("0x21e6fc7e3dc08733350a8e4ae8bb178b5f25839de26cd3bf1629a63026817a5e"))
+   (161500, uint256("0x8ba50f91af67b4efea4f65440261b9ada30bdd18dda150f362995f4437002fd2"))
    (306000, uint256("0x5606181c43d1622bed0f8d69488e8e6576c476f411a0b8d0a1bf9760f40c83a8"))
    (306001, uint256("0x6c8b2a990e700d9472096ed39792021c347e4d7553e9e8ee1ab22480d8d2aa09"))
    (306044, uint256("0x341337c5ff507e0336dce2b98d45ece2c56a366e51c78ea99fa9e486ff9821a2"))
-   (306400, uint256("0xbbd236c0c6ef6487f3fbb444fd44e2dc7c5d116718bd462e0e81eaecbb39ebd4"));
+   (306400, uint256("0xbbd236c0c6ef6487f3fbb444fd44e2dc7c5d116718bd462e0e81eaecbb39ebd4"))
+   (306666, uint256("0x569be7bd52d32d3e030550574022b7bb64719d3a4c492029be7605ea917f2629"))
+   (306667, uint256("0xd00aa15293728250dad78cc644e1f8c30a88120bbe3098535494747549609510"))
+   (306668, uint256("0xc94fc3b92e82a932ab7f6650c17a8d0da3c2ed5a2af0afb077c0af883388026a"))
+   (306669, uint256("0xd40c82a43068b80bbdad4ba422e07ef89920bfe1863745b44cc92b3c68a6559c"))
+   (306670, uint256("0x9cbebd31ef510557b4340e8eb1e7985bc1aae63010f349f748992b027b68ad10")) // sync whole network
+   (306671, uint256("0x2e6c1a3790e0c389f6e4111e58c8a7b526c77ce6a6d41dc5be9203d696fbeac3"))
+   (306692, uint256("0xb009eda4facf6025f800e6d53d977c2b4ce6de0de131a185f7bd163108f44f8b")) // UpdateTip: new best=b009eda4facf6025f800e6d53d977c2b4ce6de0de131a185f7bd163108f44f8b  height=306692  log2_work=64.791577  tx=753572  date=2019-04-08 21:05:22 progress=1.000003  cache=2134
+   (306705, uint256("0x0c96d8149bb788fbc0750e2fbf2f463236577f35a863697e3f3589b272c0bd0c")); //  new best=0c96d8149bb788fbc0750e2fbf2f463236577f35a863697e3f3589b272c0bd0c  height=306705  log2_work=64.791581  tx=753598  date=2019-04-08 21:19:01 progress=1.000006  cache=2174
+
 
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    
-    1554716978,
-    752899,
+ 	
+	1554758341,
+    753598,
  //   (the tx=... number in the SetBestChain debug.log lines)
 
 
-    2666 
+	2666 
 };
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
     boost::assign::map_list_of(0, uint256("0x001"));
@@ -163,7 +177,7 @@ bnProofOfWorkLimit = ~uint256(0) >> 20; // ~uint256(0) >> 1;
         nBlockLastGoodCheckpoint = 667; //Last valid accumulator checkpoint
         nBlockEnforceInvalidUTXO = 667; //Start enforcing the invalid UTXO's
         nInvalidAmountFiltered = 0*COIN; //Amount of invalid coins filtered through exchanges, that should be considered valid
-        nBlockZerocoinV2 = 306666; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
+        nBlockZerocoinV2 = 999999; //!> The block that zerocoin v2 becomes active - roughly Tuesday, May 8, 2018 4:00:00 AM GMT
         nEnforceNewSporkKey = 1925158000; //!> Sporks signed after (GMT): Tuesday, May 1, 2018 7:00:00 AM GMT must use the new spork key
         nRejectOldSporkKey = 1927811200; //!> Fully reject old spork key after (GMT): Friday, June 1, 2018 12:00:00 AM
 
